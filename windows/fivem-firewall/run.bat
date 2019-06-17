@@ -47,11 +47,11 @@ title Ajout des règles dans le pare-feu Windows ...
 echo.
 echo Ajout des règles dans le pare-feu Windows ...
 echo.
-netsh advfirewall firewall add rule name="FiveM port TCP 32120 IN" dir=in action=allow protocol=TCP localport=32120
-netsh advfirewall firewall add rule name="FiveM port UDP 32120 IN" dir=in action=allow protocol=UDP localport=32120
+netsh advfirewall firewall add rule name="FiveM port TCP 30120 IN" dir=in action=allow protocol=TCP localport=30120
+netsh advfirewall firewall add rule name="FiveM port UDP 30120 IN" dir=in action=allow protocol=UDP localport=30120
 netsh advfirewall firewall add rule name="FiveM port TCP 30110 IN" dir=in action=allow protocol=TCP localport=30110
-netsh advfirewall firewall add rule name="FiveM port TCP 32120 OUT" dir=out action=allow protocol=TCP localport=32120
-netsh advfirewall firewall add rule name="FiveM port UDP 32120 OUT" dir=out action=allow protocol=UDP localport=32120
+netsh advfirewall firewall add rule name="FiveM port TCP 30120 OUT" dir=out action=allow protocol=TCP localport=30120
+netsh advfirewall firewall add rule name="FiveM port UDP 30120 OUT" dir=out action=allow protocol=UDP localport=30120
 netsh advfirewall firewall add rule name="FiveM port TCP 30110 OUT" dir=out action=allow protocol=TCP localport=30110
 cls
 title Règles ajoutées
@@ -67,11 +67,11 @@ cls
 title Suppression des règles dans le pare-feu Windows ...
 echo.
 echo. Suppression des règles dans le pare-feu Windows ...
-netsh advfirewall firewall delete rule name="FiveM port TCP 32120 IN"
-netsh advfirewall firewall delete rule name="FiveM port UDP 32120 IN"
+netsh advfirewall firewall delete rule name="FiveM port TCP 30120 IN"
+netsh advfirewall firewall delete rule name="FiveM port UDP 30120 IN"
 netsh advfirewall firewall delete rule name="FiveM port TCP 30110 IN"
-netsh advfirewall firewall delete rule name="FiveM port TCP 32120 OUT"
-netsh advfirewall firewall delete rule name="FiveM port UDP 32120 OUT"
+netsh advfirewall firewall delete rule name="FiveM port TCP 30120 OUT"
+netsh advfirewall firewall delete rule name="FiveM port UDP 30120 OUT"
 netsh advfirewall firewall delete rule name="FiveM port TCP 30110 OUT"
 cls
 title Règles supprimées
