@@ -19,7 +19,7 @@ fi
 echo "-----------------------------------------------"
 echo " "
 echo " "
-echo -e "${BLUE}Installation automatique d'un serveur TeamSpeak3${RESET}"
+echo -e "${BLUE}Installation automatique d'un serveur Java 12 - Debian 9${RESET}"
 echo " "
 echo " "
 echo -e "• Par Eliott Bovel (${BLUE}El10tt B.#8771${RESET})"
